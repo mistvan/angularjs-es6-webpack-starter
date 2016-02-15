@@ -37,7 +37,7 @@
   },
   "scripts": {
     "test": "karma start",
-    "serve": "webpack-dev-server --content-base client/ --progress --colors --inline --open"
+    "dev": "webpack-dev-server --content-base client/ --progress --colors --inline --open"
   },
   "keywords": [
     "angular",
