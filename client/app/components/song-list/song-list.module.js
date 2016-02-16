@@ -16,7 +16,7 @@ let songListModule = angular.module('songList', [
 
     $stateProvider
       .state('song-list', {
-        url: '/songs',
+        url: '/',
         template: '<song-list songs="songListResolveCtrl.songs"></song-list>',
         resolve: {
           songs: (Song) => {

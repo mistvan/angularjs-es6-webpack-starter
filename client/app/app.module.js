@@ -16,4 +16,4 @@ angular.module('app', [
   ])
 
   .component('app', AppComponent)
-  .constant('API_URL', 'http://private-12625-tinatest.apiary-mock.com');
+  .constant('API_URL', 'http://mistvan.spolocenstvomajak.sk/spevnik');

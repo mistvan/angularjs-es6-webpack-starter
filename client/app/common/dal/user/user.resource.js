@@ -1,6 +1,6 @@
-function UserResource($resource, API_URL) {
+function UserResource($resource, USER_API_URL) {
   "ngInject";
-  let apiUrl = `${API_URL}/friends/:id`;
+  let apiUrl = `${USER_API_URL}/friends/:id`;
 
   return $resource(apiUrl, {id: '@id'});
 }

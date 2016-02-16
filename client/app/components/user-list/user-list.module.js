@@ -16,7 +16,7 @@ let userListModule = angular.module('userList', [
 
     $stateProvider
       .state('user-list', {
-        url: '/',
+        url: '/users',
         template: '<user-list users="userListResolveCtrl.users"></user-list>',
         resolve: {
           users: (User) => {
